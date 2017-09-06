@@ -16,6 +16,7 @@ public class ItemGenerator : MonoBehaviour {
 	//アイテムを出すx方向の範囲
 	private float posRange = 3.4f;
 
+
 	// Use this for initialization
 	void Start () {
 		//一定の距離ごとにアイテムを生成
@@ -48,12 +49,14 @@ public class ItemGenerator : MonoBehaviour {
 					}
 				}
 			}
+
 		}
 
 						
 	
 	// Update is called once per frame
 	void Update () {
+		
 		
 		}
 			
